@@ -3,13 +3,18 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
+    "JavaScript",
     "TypeScript",
     "TailwindCSS",
+    "Shadcn",
+    "Redux",
+    "React Hook Form",
+    "Framer Motion",
     "HTML",
     "CSS"
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Express.js", "Python", "AWS", "PostgresQL","MongoDB", "GraphQL"];
 
   return (
     <section
@@ -69,12 +74,15 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
-                </li>
+                  <strong> MSc in Computer Science </strong><br />
+                  - Cardiff University (2021-2022)<br />
+                  - Distinction <br />
+                  </li>
+                <br />
+                <br />
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> BSc(Hons) in Chemical Engineering </strong> - UCSI University
+                  (2015-2019)
                 </li>
               </ul>
             </div>
@@ -84,22 +92,21 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Software Developer at YC Sports Ltd (Sep 2022 - Jan 2025){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                  - Developed a modern e-commerce website for sports retailers and school wear distributors using React, Next.js, and Node.js.
                   </p>
                 </div>
-
+                <br />
+                
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Technical Sales Engineer, Texchem Life Sciences Sdn Bhd (Sep 2019 - Aug 2021){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  - Responsible for coordination of project development and design, planning and implementation of sales and marketing strategies for a broad range of medical device products.
                   </p>
                 </div>
               </div>
