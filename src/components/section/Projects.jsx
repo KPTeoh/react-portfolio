@@ -14,10 +14,15 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Real Estate Platform</h3>
+              <h3 className="text-xl font-bold mb-2">
+                {" "}
+                Full Stack Multi Vendor E-Commerce Platform
+              </h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+                A full-stack multi-vendor e-commerce platform built with
+                Next.js, React, Tailwind CSS, Shadcn UI, Clerk for
+                authentication, tRPC for API communication, and MongoDB for data
+                storage.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
@@ -26,8 +31,8 @@ export const Projects = () => {
                   "TypeScript",
                   "Node.js",
                   "Express.js",
-                  "AWS",
                   "Tailwind CSS",
+                  "MongoDB",
                 ].map((tech, key) => (
                   <span
                     key={key}
@@ -58,19 +63,20 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">Social Media Web App</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                A social media web app developed using React, TypeScript,
+                Supabase for backend services, PostgreSQL for database
+                management, and TailwindCSS for styling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
                   "Next.js",
-                  "JavaScript",
+                  "TypeScript",
                   "Tailwind CSS",
-                  "MongoDB",
+                  "PostgreSQL",
+                  "Supabase",
                   "Clerk",
-                  "Inngest",
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -104,13 +110,23 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">React Movie App</h3>
+              <h3 className="text-xl font-bold mb-2">
+                Fullstack ChatGPT Clone
+              </h3>
               <p className="text-gray-400 mb-4">
-                Built with React.js for the user interface, Appwrite for the
-                Trending Movies Algorithm, and styled with TailwindCSS
+                A full-stack ChatGPT-like application built with React for the
+                frontend, Express for the backend, MongoDB for data storage, and
+                Google Gemini AI for conversational capabilities, offered for
+                free.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Tailwind CSS", "Appwrite"].map((tech, key) => (
+                {[
+                  "React",
+                  "Tailwind CSS",
+                  "Expressjs",
+                  "MongoDB",
+                  "Gemini AI",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className="
